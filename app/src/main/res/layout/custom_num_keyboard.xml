@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/gridLayoutKeyboard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="3"
+    android:rowCount="4">
+
+    <com.subhash.customnumkeyboard.numkeyboard.BorderTextView
+        style="@style/KeyboardButton"
+        android:text="@string/key_1"
+        app:borderBottom="true"
+        app:borderLeft="true"
+        app:borderRight="true"
+        app:borderTop="true" />
+
+    <com.subhash.customnumkeyboard.numkeyboard.BorderTextView
+        style="@style/KeyboardButton"
+        android:text="@string/key_2"
+        app:borderBottom="true"
+        app:borderLeft="false"
+        app:borderRight="true"
+        app:borderTop="true" />
+
+    <com.subhash.customnumkeyboard.numkeyboard.BorderTextView
+        style="@style/KeyboardButton"
+        android:text="@string/key_3"
+        app:borderBottom="true"
+        app:borderLeft="false"
+        app:borderRight="true"
+        app:borderTop="true" />
+
+    <com.subhash.customnumkeyboard.numkeyboard.BorderTextView
+        style="@style/KeyboardButton"
+        android:text="@string/key_4"
+        app:borderBottom="true"
+        app:borderLeft="true"
+        app:borderRight="true"
+        app:borderTop="false" />
+
+    <com.subhash.customnumkeyboard.numkeyboard.BorderTextView
+        style="@style/KeyboardButton"
+        android:text="@string/key_5"
+        app:borderBottom="true"
+        app:borderLeft="false"
+        app:borderRight="true"
+        app:borderTop="false" />
+
+    <com.subhash.customnumkeyboard.numkeyboard.BorderTextView
+        style="@style/KeyboardButton"
+        android:text="@string/key_6"
+        app:borderBottom="true"
+        app:borderLeft="false"
+        app:borderRight="true"
+        app:borderTop="false" />
+
+    <com.subhash.customnumkeyboard.numkeyboard.BorderTextView
+        style="@style/KeyboardButton"
+        android:text="@string/key_7"
+        app:borderBottom="true"
+        app:borderLeft="true"
+        app:borderRight="true"
+        app:borderTop="false" />
+
+    <com.subhash.customnumkeyboard.numkeyboard.BorderTextView
+        style="@style/KeyboardButton"
+        android:text="@string/key_8"
+        app:borderBottom="true"
+        app:borderLeft="false"
+        app:borderRight="true"
+        app:borderTop="false" />
+
+    <com.subhash.customnumkeyboard.numkeyboard.BorderTextView
+        style="@style/KeyboardButton"
+        android:text="@string/key_9"
+        app:borderBottom="true"
+        app:borderLeft="false"
+        app:borderRight="true"
+        app:borderTop="false" />
+
+    <com.subhash.customnumkeyboard.numkeyboard.BorderTextView
+        style="@style/KeyboardButton"
+        android:text="@string/key_dot"
+        android:textSize="22sp"
+        app:borderBottom="false"
+        app:borderLeft="false"
+        app:borderRight="true"
+        app:borderTop="false" />
+
+    <com.subhash.customnumkeyboard.numkeyboard.BorderTextView
+        style="@style/KeyboardButton"
+        android:text="@string/key_0"
+        app:borderBottom="true"
+        app:borderLeft="false"
+        app:borderRight="true"
+        app:borderTop="false" />
+
+    <com.subhash.customnumkeyboard.numkeyboard.BorderTextView
+        android:id="@+id/crossButton"
+        style="@style/KeyboardButton"
+        android:text="@string/key_backspace"
+        android:textSize="22sp"
+        app:borderBottom="false"
+        app:borderLeft="false"
+        app:borderRight="false"
+        app:borderTop="false" />
+
+</GridLayout>

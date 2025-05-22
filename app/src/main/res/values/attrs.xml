@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BorderTextView">
+        <attr name="field" format="reference" />
+        <attr name="fieldMaxLength" format="integer" />
+
+        <attr name="keyHeight" format="dimension" />
+        <attr name="keyTextSize" format="dimension" />
+        <attr name="keyTextColor" format="color" />
+
+        <attr name="keySpecial" format="string" />
+
+        <attr name="borderTop" format="boolean" />
+        <attr name="borderLeft" format="boolean" />
+        <attr name="borderBottom" format="boolean" />
+        <attr name="borderRight" format="boolean" />
+        <attr name="tvBorderColor" format="color" />
+        <attr name="borderWidth" format="dimension" />
+    </declare-styleable>
+</resources>
